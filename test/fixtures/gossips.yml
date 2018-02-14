@@ -1,0 +1,20 @@
+# == Schema Information
+#
+# Table name: gossips
+#
+#  id               :integer          not null, primary key
+#  anonymous_author :string
+#  content          :string
+#  created_at       :datetime         not null
+#  updated_at       :datetime         not null
+#
+
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  anonymous_author: MyString
+  content: MyString
+
+two:
+  anonymous_author: MyString
+  content: MyString
